@@ -6,7 +6,7 @@
 	<name>VidPlugin</name>
 	<description>A Simple video chat permissions plugin</description>
 	<license>Apache 2.0</license>
-	<keywords>cordova, muse</keywords>
+	<keywords>cordova, video, camera</keywords>
 	<repo></repo>
 	<issue></issue>
 	<!-- android -->
