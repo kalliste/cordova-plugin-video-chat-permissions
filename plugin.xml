@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="institute.ambrosia.vidplugin"
+	version="0.2.11">
+	<name>VidPlugin</name>
+	<description>A Simple video chat permissions plugin</description>
+	<license>Apache 2.0</license>
+	<keywords>cordova, muse</keywords>
+	<repo></repo>
+	<issue></issue>
+	<!-- android -->
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="VidPlugin" >
+				<param name="android-package" value="VidPlugin"/>
+			</feature>
+		</config-file>
+
+		<config-file target="AndroidManifest.xml" parent="/manifest">
+			<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+			<uses-permission android:name="android.permission.CAMERA"/>
+		</config-file>
+
+	</platform>
+</plugin>
